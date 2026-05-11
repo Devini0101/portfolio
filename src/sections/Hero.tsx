@@ -58,7 +58,7 @@ export function Hero () {
                         </div>
 
                         <div className={`mt-5 px-4 py-2 bg-purple-600 rounded-lg flex items-center cursor-pointer transition-transform duration-300 hover:scale-105`}>
-                            <a href="/experience" className={`text-white`}>
+                            <a href="#experience" className={`text-white`}>
                                 Explorar experiências
                             </a>
                         </div>

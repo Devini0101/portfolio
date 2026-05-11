@@ -17,18 +17,18 @@ export function Education () {
                     <div className="border border-purple-600 rounded-lg p-6">
                         <div className="education-header">
                             <h3 className="text-lg font-bold font-mono">Universidade Federal do Paraná (UFPR)</h3>
-                            <p className="text-md text-gray-300">Análise e Desenvolvimento de Sistemas</p>
-                            <p className="text-md text-gray-300">2025 - Atualmente (3° Semestre)</p>
-                            <p className="text-md text-gray-300">Curitiba, Brasil</p>
+                            <p className={`text-md ${t.textSecondary}`}>Análise e Desenvolvimento de Sistemas</p>
+                            <p className={`text-md ${t.textSecondary}`}>2025 - Atualmente (3° Semestre)</p>
+                            <p className={`text-md ${t.textSecondary}`}>Curitiba, Brasil</p>
                         </div>
                     </div>
 
                     <div className="border border-purple-600 rounded-lg p-6">
                         <div className="education-header">
                             <h3 className="text-lg font-bold font-mono">Uninter</h3>
-                            <p className="text-md text-gray-300">Engenharia de Software (EAD)</p>
-                            <p className="text-md text-gray-300">2025 - Atualmente (3° Semestre)</p>
-                            <p className="text-md text-gray-300">Curitiba, Brasil</p>
+                            <p className={`text-md ${t.textSecondary}`}>Engenharia de Software (EAD)</p>
+                            <p className={`text-md ${t.textSecondary}`}>2025 - Atualmente (3° Semestre)</p>
+                            <p className={`text-md ${t.textSecondary}`}>Curitiba, Brasil</p>
                         </div>
                     </div>
                 </div>
@@ -43,18 +43,18 @@ export function Education () {
                     <div className="border border-purple-600 rounded-lg p-6">
                         <div className="education-header">
                             <h3 className="text-lg font-bold font-mono">CS-50 (Harvard)</h3>
-                            <p className="text-md text-gray-300">Ciência da Computação</p>
-                            <p className="text-md text-gray-300">2024 - 2025</p>
-                            <p className="text-md text-gray-300">Curitiba, Brasil (Educação a Distância)</p>
+                            <p className={`text-md ${t.textSecondary}`}>Ciência da Computação</p>
+                            <p className={`text-md ${t.textSecondary}`}>2024 - 2025</p>
+                            <p className={`text-md ${t.textSecondary}`}>Curitiba, Brasil (Educação a Distância)</p>
                         </div>
                     </div>
 
                     <div className="border border-purple-600 rounded-lg p-6">
                         <div className="education-header">
                             <h3 className="text-lg font-bold font-mono">Wizard</h3>
-                            <p className="text-md text-gray-300">Inglês</p>
-                            <p className="text-md text-gray-300">2019 - 2021</p>
-                            <p className="text-md text-gray-300">Curitiba, Brasil</p>
+                            <p className={`text-md ${t.textSecondary}`}>Inglês</p>
+                            <p className={`text-md ${t.textSecondary}`}>2019 - 2021</p>
+                            <p className={`text-md ${t.textSecondary}`}>Curitiba, Brasil</p>
                         </div>
                     </div>
                 </div>
