@@ -1,7 +1,9 @@
 import { FaBriefcase } from "react-icons/fa6"
 import { Reveal } from "../components/Reveal";
+import { useTheme } from "../App";
 
 export function Experience (){
+    const { t } = useTheme();
     return (
         <section className="py-20 reveal" id="experience">
             <Reveal>
@@ -13,10 +15,10 @@ export function Experience (){
                 <div className="flex flex-col gap-3">
                     <div className="border border-purple-600 rounded-lg p-6">
                         <div className="job-header">
-                            <h3 className="text-lg font-bold font-mono">Estagiário de Desenvolvimento Java & PHP</h3>
-                            <p className="font-bold font-mono text-lg text-purple-600">Banco do Brasil</p>
-                            <p>Maio 2026 - Atualmente</p>
-                            <p>Curitiba, Brasil</p>
+                            <h3 className={`text-lg font-bold font-mono ${t.accent}`}>Estagiário de Desenvolvimento Java & PHP</h3>
+                            <p className={`font-bold font-mono text-lg ${t.textSecondary} `}>Banco do Brasil</p>
+                            <p className={`${t.textSecondary}`}>Maio 2026 - Atualmente</p>
+                            <p className={`${t.textSecondary}`}>Curitiba, Brasil</p>
                             <ul className="list-none mt-2">
                                 <li className="before:content-['\2192'] before:mr-2 before:text-purple-600">Desenvolvimento e manutenção de sistemas backend utilizando Java & PHP.</li>
                                 <li className="before:content-['\2192'] before:mr-2 before:text-purple-600">Criação de relatórios com ferramentas de BI.</li>
@@ -28,10 +30,10 @@ export function Experience (){
 
                     <div className="border border-purple-600 rounded-lg p-6">
                         <div className="job-header">
-                            <h3 className="text-lg font-bold font-mono">Estagiário de Desenvolvimento PHP</h3>
-                            <p className="font-bold font-mono text-lg text-purple-600">Meu Nominho</p>
-                            <p>Agosto 2025 - Maio 2026</p>
-                            <p>Curitiba, Brasil</p>
+                            <h3 className={`text-lg font-bold font-mono ${t.accent} `}>Estagiário de Desenvolvimento PHP</h3>
+                            <p className={`font-bold font-mono text-lg ${t.textSecondary} `}>Meu Nominho</p>
+                            <p className={`${t.textSecondary}`}>Agosto 2025 - Maio 2026</p>
+                            <p className={`${t.textSecondary}`}>Curitiba, Brasil</p>
                             <ul className="list-none mt-2">
                                 <li className="before:content-['\2192'] before:mr-2 before:text-purple-600">Desenvolvimento de sistemas backend com o Framework Laravel utilizando PHP e JavaScript.</li>
                                 <li className="before:content-['\2192'] before:mr-2 before:text-purple-600">Manutenção de sistema legados Laravel com PHP.</li>

@@ -1,14 +1,16 @@
 import { FaGraduationCap } from "react-icons/fa";
 import { FaBook } from "react-icons/fa6";
 import { Reveal } from "../components/Reveal";
+import { useTheme } from "../App";
 
 export function Education () {
+    const { t } = useTheme();
     return(
         <section className="flex flex-col gap-10 py-10" id="education">
             <Reveal>
                 <div className="flex items-center justify-center mb-3">
-                    <FaGraduationCap className="text-2xl mr-5 text-purple-600" />
-                    <h2 className="text-2xl font-bold font-mono">Escolaridade</h2>
+                    <FaGraduationCap className={`text-2xl mr-5 ${t.accent}`} />
+                    <h2 className={`text-2xl font-bold font-mono ${t.accent}`}>Escolaridade</h2>
                 </div>
 
                 <div className="flex flex-col gap-3">
@@ -33,8 +35,8 @@ export function Education () {
 
 
                 <div className="flex items-center justify-center mt-10">
-                    <FaBook className="text-2xl mr-5 text-purple-600" />
-                    <h2 className="text-2xl font-bold font-mono">Cursos</h2>
+                    <FaBook className={`text-2xl mr-5 ${t.accent}`} />
+                    <h2 className={`text-2xl font-bold font-mono ${t.accent}`}>Cursos</h2>
                 </div>
 
                 <div className="flex flex-col gap-3 mt-2">

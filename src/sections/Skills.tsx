@@ -4,14 +4,16 @@ import { FaTools } from "react-icons/fa";
 import { LuCodeXml } from "react-icons/lu";
 import { SiAngular, SiBootstrap, SiBruno, SiC, SiFramework, SiLaravel, SiNeo4J, SiPostman, SiReact, SiTailwindcss } from "react-icons/si";
 import { Reveal } from "../components/Reveal";
+import { useTheme } from "../App";
 
 export function Skills () {
+    const { t } = useTheme();
     return (
-        <section className="py-10">
+        <section className="py-10" id="skills">
             <Reveal>
                 <div className="flex items-center justify-center mb-3">
-                    <LuCodeXml className="text-2xl mr-5 text-purple-600" />
-                    <h2 className="text-2xl font-bold font-mono">Habilidades Técnicas</h2>
+                    <LuCodeXml className={`text-2xl mr-5 ${t.accent}`} />
+                    <h2 className={`text-2xl font-bold font-mono ${t.accent}`}>Habilidades Técnicas</h2>
                 </div>
                 <div className="flex flex-col gap-2">
                     <div className="border border-purple-600 rounded-lg p-6">
@@ -24,32 +26,32 @@ export function Skills () {
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiPhp size={40} className="text-md " />
-                                <span className="block text-center text-white font-bold font-mono mt-1">PHP</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>PHP</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiJava size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Java</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Java</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiPython size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Python</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Python</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiJavascript1 size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">JavaScript</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>JavaScript</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <BsTypescript size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">TypeScript</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>TypeScript</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiC size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">C</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>C</span>
                             </li>
 
                         </ul>
@@ -65,27 +67,27 @@ export function Skills () {
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiLaravel size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Laravel</span>
+                                <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>Laravel</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiReact size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">React</span>
+                                <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>React</span>
                             </li>
 
-                            <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
+                            <li className={`mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center`}>
                                 <SiAngular size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Angular</span>
+                                <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>Angular</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiTailwindcss size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Tailwind</span>
+                                <span className={`block text-centerfont-bold font-mono mt-1`}>Tailwind</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiBootstrap size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Bootstrap</span>
+                                <span className={`block text-centerfont-bold font-mono mt-1`}>Bootstrap</span>
                             </li>
 
                         </ul>
@@ -101,27 +103,27 @@ export function Skills () {
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiMysql size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">MySQL</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>MySQL</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiPostgresql size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">PostgreSQL</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>PostgreSQL</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiNeo4J size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Neo4j</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Neo4j</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiMongodb size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">MongoDB</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>MongoDB</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiRedis size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Redis</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Redis</span>
                             </li>
 
                         </ul>
@@ -137,27 +139,27 @@ export function Skills () {
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiNginx size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Nginx</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Nginx</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiDocker size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Docker</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Docker</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiGit size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Git</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Git</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiPostman size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Postman</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Postman</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <SiBruno size={40} className="text-md" />
-                                <span className="block text-center text-white font-bold font-mono mt-1">Bruno</span>
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Bruno</span>
                             </li>
 
                         </ul>

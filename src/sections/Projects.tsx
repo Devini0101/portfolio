@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Reveal } from "../components/Reveal";
+import { useTheme } from "../App";
 
 const MyProjects = [
     {
@@ -35,6 +36,8 @@ const MyProjects = [
 ];
 
 export function Projects () {
+    const { t } = useTheme();
+
     return(
         <section className="flex flex-col gap-10 reveal py-10" id="projects">
             <Reveal>
@@ -59,11 +62,11 @@ export function Projects () {
                                     className="w-full h-48 object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
 
                                     <div className="p-6">
-                                    <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                                    <p className="text-gray-400 text-sm mb-4 h-35 line-clamp-2">
+                                    <h3 className={`text-xl font-bold ${t.text} mb-2`}>{project.title}</h3>
+                                    <p className={` text-sm mb-4 h-35 line-clamp-2 ${t.textSecondary}`}>
                                         {project.desc}
                                     </p>
-                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="transition-transform duration-200  border inline-flex items-center gap-2 text-purple-500 border-transparent hover:border-purple-600 hover:text-white hover:bg-purple-600 rounded-md font-medium p-2">
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className={`transition-transform duration-200  border inline-flex items-center gap-2 ${t.accent} border-transparent hover:border-purple-600 hover:${t.text} hover: ${t.background} rounded-md font-medium p-2`}>
                                         <FaGithub /> Ver Repositório
                                     </a>
                                     </div>
