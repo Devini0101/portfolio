@@ -4,6 +4,7 @@ import { LuMail } from "react-icons/lu";
 import { LuMapPin } from "react-icons/lu";
 import Typewriter from 'typewriter-effect';
 import { useTheme } from "../App";
+import perfilImg from '/public/Vinicius_pfp.jpeg';
 
 export function Hero () {
     const { t } = useTheme();
@@ -53,7 +54,7 @@ export function Hero () {
                     <div className="flex gap-5">
                         <div className={`mt-5 px-4 py-2 bg-purple-600 rounded-lg flex items-center cursor-pointer transition-transform duration-300 hover:scale-105`}>
                             <FaDownload className={`inline-block mr-2 text-white`} />
-                            <a href="/public/CurriculoViniciusDias.pdf" download className={`text-white`}>Baixar Currículo</a>
+                            <a href="./CurriculoViniciusDias.pdf" download className={`text-white`}>Baixar Currículo</a>
                         </div>
 
                         <div className={`mt-5 px-4 py-2 bg-purple-600 rounded-lg flex items-center cursor-pointer transition-transform duration-300 hover:scale-105`}>
@@ -70,7 +71,7 @@ export function Hero () {
                         <div className={`absolute -inset-1 bg-purple-800 rounded-full blur opacity-25` }></div>
                         <img
                             className={`relative rounded-full w-full h-full object-cover shadow-2xl border-4 border-purple-600`}
-                            src="/Vinicius_pfp.jpeg"
+                            src={perfilImg}
                             alt="Imagem de perfil Vinicius Dias"
                         />
                     </div>
