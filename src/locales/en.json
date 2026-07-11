@@ -1,0 +1,149 @@
+{
+  "header": {
+    "about": "About Me",
+    "experience" : "Experience",
+    "skills" : "Skills",
+    "projects": "Projects",
+    "education": "Education"
+  },
+  "hero": {
+    "opportunities": "Open to new opportunities",
+    "title": "Full Stack Developer",
+    "subtitle": "Full Stack Developer with experience in building systems with Laravel and Java, also using TypeScript, React and Angular",
+    "address" : "Curitiba, Brasil",
+    "downloadResume" : "Download Resume",
+    "experiences" : "Explore Experiences",
+    "resumeExtension" : "./CurriculoViniciusDias_EN.pdf"
+  },
+
+  "experience" : {
+    "title" : "Professional Experience",
+    "jobs" : [ {
+            "role" : "Java & PHP Development Internship",
+            "company" : "Banco do Brasil",
+            "time" : "May 2026 - Currently",
+            "address" : "Curitiba, Brazil",
+            "abilities": [
+                "Maintained, refactored, and debugged legacy PHP and Java codebases to enhance stability and performance.",
+                "Created reports with BI tools.",
+                "Collaborated in SCRUM and Kanban, participating on meetings and code reviews.",
+                "Implemented Unit Tests and CI to increase code quality.",
+                "Implemented Homologation and Development ambients for security on build features and fixing bugs.",
+                "Automated form auto-filling via XLSX file uploads, significantly streamlining data entry for complex forms.",
+                "Implemented and refined OAuth2 authentication flows across enterprise ERP systems to strengthen access control.",
+                "Integrated an internal AI database with the primary database, enabling unified contract data searches within a single interface.",
+                "Developed a time-tracking application to measure employee task completion times and generate automated managerial reports.",
+                "Optimized database query performance and implemented full-text-search indexes to accelerate data retrieval."
+            ]
+        },
+        {
+            "role" : "PHP Development Internship",
+            "company" : "Meu Nominho",
+            "time" : "August 2025 - May 2026",
+            "address" : "Curitiba, Brazil",
+            "abilities": [
+                "Implemented a feature of dinamic reports about Carriers.",
+                "Implemented Mail Sender and Codebar functionalities.",
+                "Improved Jobs and Querys performance.",
+                "Corrected and performed maintence on legacy code in PHP.",
+                "Improved communication between APIs as well as data processing and error handlers.",
+                "Learned how to use meta-data in EAV (Entity-Attribute-Value) tables.",
+                "Implemented carrier API.",
+                "Colaborated in Agile Projects, participating in daily meetings and code reviews."
+            ]
+        }
+    ]
+  },
+
+    "skills" : {
+        "title" : "Technical Skills",
+        "programming_languages" : "Programming Languages",
+        "frameworks": "Frameworks",
+        "databases": "Databases",
+        "tools" : "Tools"
+    },
+
+    "education" : {
+        "title" : "Education",
+        "education" : [
+            {
+                "organization": "Universidade Federal do Paraná (UFPR)",
+                "degree": "System Analysis and Development",
+                "duration": "2025 - Currently (4º Semester)",
+                "address": "Curitiba, Brazil"
+            },
+            {
+                "organization": "Uninter",
+                "degree": "Software Engeneering",
+                "duration": "2025 - Currently (4º Semester)",
+                "address": "Curitiba, Brazil"
+            }
+        ],
+        "courses_title" : "Courses",
+        "courses":[
+             {
+                "name": "CS-50 (Harvard)",
+                "provider": "Computer Science",
+                "duration": "2024 - 2025",
+                "address": "Curitiba, Brazil"
+            },
+            {
+                "name": "Wizard",
+                "provider": "English",
+                "duration": "2019 - 2021",
+                "address": "Curitiba, Brazil"
+            }
+        ]
+    },
+
+    "projects" : {
+        "title" : "Projects",
+        "projects_list":[
+            {
+                "title": "Forest Guardian",
+                "desc": "2D Game built with Python library PyGame",
+                "img": "./forest_guardian.jpeg",
+                "github": "https://github.com/Devini0101/ForestGuardian",
+                "downloadable": true,
+                "download": "./ForestGuardian.zip"
+            },
+            {
+                "title": "Custom Pizzeria",
+                "desc": "Pizzeria management system in Java, focused on OOP concepts, where pizza formats are able to costumize, generating variable prices",
+                "img" : "./pizzaria.jpg",
+                "github": "https://github.com/Devini0101/OOP-Final-Project",
+                "downloadable": false
+            },
+            {
+                "title": "Fastyping",
+                "desc": "Competitive typing website with rankings, guilds, statistics and difficult levels, built with PHP and JS",
+                "img": "./fastyping.jpeg",
+                "github": "https://github.com/Devini0101/Fastyping",
+                "downloadable": false
+            },
+            {
+                "title": "LeetCode",
+                "desc": "Solving leetcode DSA problems and implementing algorithms in Java and Python, with details for each solution.",
+                "img": "./leetcode.png",
+                "github": "https://github.com/Devini0101/Leetcode",
+                "downloadable": false
+            },
+            {
+                "title": "Employee Management",
+                "desc": "CRUD project for employees management built with Python",
+                "img": "./gestaoFuncionarios.jpeg",
+                "github": "https://github.com/Devini0101/gestaofuncionarios",
+                "downloadable" : false
+            },
+            {
+                "title" : "DSA With C Language",
+                "desc" : "Implementing DSA in C, like sparse matrix, maze and airport algorithms",
+                "img": "./mazeDSA.jpeg",
+                "github": "https://github.com/Devini0101/DSA",
+                "downloadable": false
+            }
+        ],
+        "repository_label" : "Repository",
+        "download_label" : "Download"
+    }
+}

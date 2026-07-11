@@ -1,0 +1,150 @@
+{
+  "header": {
+    "about": "Sobre mim",
+    "experience" : "Experiência",
+    "skills" : "Habilidades",
+    "projects": "Projetos",
+    "education": "Escolaridade"
+  },
+
+  "hero": {
+    "opportunities": "Aberto a novas oportunidades",
+    "title": "Desenvolvedor Full Stack",
+    "subtitle": "Desenvolvedor Full Stack com experiência em construir sistemas backend com tecnologias como Laravel e Java, tal como sistemas frontend com React, TypeScript e Angular.",
+    "address" : "Curitiba, Brasil",
+    "downloadResume" : "Baixar Currículo",
+    "experiences" : "Explorar experiências",
+    "resumeExtension" : "./CurriculoViniciusDias_PTBR.pdf"
+  },
+
+  "experience" : {
+    "title" : "Experiência Profissional",
+    "jobs" : [ {
+            "role" : "Estagiário de Desenvolvimento Java & PHP",
+            "company" : "Banco do Brasil",
+            "time" : "Maio 2026 - Atualmente",
+            "address" : "Curitiba, Brasil",
+            "abilities": [
+                "Refatorei, mantive e debuggei código legado em PHP e Java, melhorando a estabilidade e performance de ambos sistemas.",
+                "Criei relatórios através de ferramentas de BI.",
+                "Colaborei em SCRUMs e Kanban, participando de reuniões e revisões de código.",
+                "Implementei testes unitários e integração contínua (CI) para aumento de qualidade do código.",
+                "Implementei ambientes de homologação e desenvolvimento para maior segurança em implementação de funcionalidades e correção de bugs.",
+                "Automatizei preenchimento de dados em Forms extensos através de upload e leitura de arquivos .XSLX .",
+                "Implementei e refinei autenticação via OAuth2 entre os ERPs da empresa para melhoria do controle de acesso.",
+                "Integrei a base de dados da IA interna à ferramenta de busca, permitindo a consulta unificada entre dados legados do banco e novas informações de contratos.",
+                "Desenvolvi um software para contabilização de tempo de trabalho dos funcionários em suas determinadas tarefas, ao final, gerando relatórios para gerentes.",
+                "Melhorei o desempenho de Querys e implementei índices para busca textual."
+            ]
+        },
+        {
+            "role" : "Estagiário de Desenvolvimento PHP",
+            "company" : "Meu Nominho",
+            "time" : "Agosto 2025 - Maio 2026",
+            "address" : "Curitiba, Brasil",
+            "abilities": [
+                "Implementei funcionalidades de relatórios dinâmicos sobre transportadoras.",
+                "Implementei envios de e-mail dinâmicos aos clientes e uso de código de barras como evento para esses envios.",
+                "Melhorei o desempenho de Jobs e Querys.",
+                "Realizei correção e manutenção de código legado em PHP.",
+                "Implementei melhorias na comunicação entre APIs assim como tratamento de dados e exceções.",
+                "Aprendi a utilizar meta-dados em tabelas EAV (Entity-Attribute-Value).",
+                "Implementação de API de logística.",
+                "Colaboração em projetos ágeis, participando de reuniões diárias e revisões de código."
+            ]
+        }
+    ]
+  },
+
+    "skills" : {
+        "title" : "Habilidades Técnicas",
+        "programming_languages" : "Linguagens de Programação",
+        "frameworks": "Frameworks",
+        "databases": "Banco de Dados",
+        "tools" : "Ferramentas"
+    },
+
+    "education" : {
+        "title" : "Escolaridade",
+        "education" : [
+            {
+                "organization": "Universidade Federal do Paraná (UFPR)",
+                "degree": "Análise e Desenvolvimento de Sistemas",
+                "duration": "2025 - Atualmente (4º semestre)",
+                "address": "Curitiba, Brasil"
+            },
+            {
+                "organization": "Uninter",
+                "degree": "Engenharia de Software",
+                "duration": "2025 - Atualmente (4º semestre)",
+                "address": "Curitiba, Brasil"
+            }
+        ],
+        "courses_title" : "Cursos",
+        "courses":[
+             {
+                "name": "CS-50 (Harvard)",
+                "provider": "Ciência da Computação",
+                "duration": "2024 - 2025",
+                "address": "Curitiba, Brasil"
+            },
+            {
+                "name": "Wizard",
+                "provider": "Inglês",
+                "duration": "2019 - 2021",
+                "address": "Curitiba, Brasil"
+            }
+        ]
+    },
+
+    "projects" : {
+        "title" : "Projetos",
+        "projects_list":[
+            {
+                "title": "Forest Guardian",
+                "desc": "Jogo 2d feito em Python com a biblioteca PyGame",
+                "img": "./forest_guardian.jpeg",
+                "github": "https://github.com/Devini0101/ForestGuardian",
+                "downloadable": true,
+                "download": "./ForestGuardian.zip"
+            },
+            {
+                "title": "Pizzaria Customizada",
+                "desc": "Sistema de gerenciamento de uma pizzaria customizável em Java com foco em conceitos de LPOO, onde os formatos de pizza são variados, assim como os preços por tipo de sabores",
+                "img" : "./pizzaria.jpg",
+                "github": "https://github.com/Devini0101/OOP-Final-Project",
+                "downloadable": false
+            },
+            {
+                "title": "Fastyping",
+                "desc": "Website de digitação competitiva com ranking, estatísticas e níveis de dificuldade, construído com PHP puro e MySQL para armazenar os dados",
+                "img": "./fastyping.jpeg",
+                "github": "https://github.com/Devini0101/Fastyping",
+                "downloadable": false
+            },
+            {
+                "title": "LeetCode",
+                "desc": "Soluções de problemas do LeetCode, implementando algoritmos e estruturas de dados em Java e Python, com explicações detalhadas para cada solução.",
+                "img": "./leetcode.png",
+                "github": "https://github.com/Devini0101/Leetcode",
+                "downloadable": false
+            },
+            {
+                "title": "Gestão de Funcionários",
+                "desc": "Projeto de CRUD para gestão de funcionários, utilizando Python",
+                "img": "./gestaoFuncionarios.jpeg",
+                "github": "https://github.com/Devini0101/gestaofuncionarios",
+                "downloadable" : false
+            },
+            {
+                "title" : "DSA With C Language",
+                "desc" : "implementação de algoritmos e estruturas de dados em C, como Matriz Esparsa.",
+                "img": "./mazeDSA.jpeg",
+                "github": "https://github.com/Devini0101/DSA",
+                "downloadable": false
+            }
+        ],
+        "repository_label" : "Ver Repositório",
+        "download_label" : "Baixar"
+    }
+}
