@@ -5,14 +5,16 @@ import { LuMapPin } from "react-icons/lu";
 import Typewriter from 'typewriter-effect';
 import { useTheme } from "../App";
 import perfilImg from '/public/Vinicius_pfp.jpeg';
+import { useTranslation } from "react-i18next";
 
 export function Hero () {
     const { t } = useTheme();
+    const { t: tr } = useTranslation();
     return (
         <section className="py-20" id="about">
             <div className="flex items-center mx-auto px-6 gap-35">
                 <div>
-                    <div className="p-1 mb-3 text-center rounded-xl w-60 bg-purple-800 text-white">Aberto a novas oportunidades</div>
+                    <div className="p-1 mb-3 text-center rounded-xl w-60 bg-purple-800 text-white">{tr('hero.opportunities')}</div>
                     <h1 className="text-4xl font-bold font-mono">
                         <Typewriter
                             options={{
@@ -22,13 +24,13 @@ export function Hero () {
                             }}
                         />
                     </h1>
-                    <h3 className={`text-2xl ${t.accent} font-bold font-mono`}> Desenvolvedor Full Stack </h3>
-                    <p className={`text-md w-120 mt-4 ${t.accent}`}>Desenvolvedor Full Stack com experiência em construir sistemas backend com tecnologias como Laravel e Java, tal como sistemas frontend com React, TypeScript e Angular.</p>
+                    <h3 className={`text-2xl ${t.accent} font-bold font-mono`}> {tr('hero.title')} </h3>
+                    <p className={`text-md w-120 mt-4 ${t.accent}`}>{tr('hero.subtitle')}</p>
 
                     <div className="mt-5 flex flex-col gap-3">
                         <div className="flex items-center">
                             <LuMapPin className={`inline-block mr-2 ${ t.text }`} />
-                            <span className={t.text}>Curitiba, Brasil</span>
+                            <span className={t.text}>{tr('hero.address')}</span>
                         </div>
 
                         <div className="flex items-center">
@@ -54,12 +56,14 @@ export function Hero () {
                     <div className="flex gap-5">
                         <div className={`mt-5 px-4 py-2 bg-purple-600 rounded-lg flex items-center cursor-pointer transition-transform duration-300 hover:scale-105`}>
                             <FaDownload className={`inline-block mr-2 text-white`} />
-                            <a href="./CurriculoViniciusDias.pdf" download className={`text-white`}>Baixar Currículo</a>
+                            <a href={tr('hero.resumeExtension')} download className={`text-white`}>
+                                {tr('hero.downloadResume')}
+                            </a>
                         </div>
 
                         <div className={`mt-5 px-4 py-2 bg-purple-600 rounded-lg flex items-center cursor-pointer transition-transform duration-300 hover:scale-105`}>
                             <a href="#experience" className={`text-white`}>
-                                Explorar experiências
+                                {tr('hero.experiences')}
                             </a>
                         </div>
                     </div>
