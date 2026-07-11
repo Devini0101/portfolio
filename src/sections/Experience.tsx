@@ -3,11 +3,20 @@ import { Reveal } from "../components/Reveal";
 import { useTheme } from "../App";
 import { useTranslation } from "react-i18next";
 
+interface Job {
+  role: string;
+  company: string;
+  time: string;
+  address: string;
+  abilities: string[];
+}
+
+
 export function Experience (){
     const { t } = useTheme();
     const { t: tr } = useTranslation();
 
-    const jobs = tr("experience.jobs", { returnObjects: true }) || [];
+    const jobs = (tr("experience.jobs", { returnObjects: true }) as Job[]) || [];
     return (
         <section className="py-20 reveal" id="experience">
             <Reveal>

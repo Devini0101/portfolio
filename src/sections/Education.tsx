@@ -3,13 +3,26 @@ import { FaBook } from "react-icons/fa6";
 import { Reveal } from "../components/Reveal";
 import { useTheme } from "../App";
 import { useTranslation } from "react-i18next";
+interface EducationItem {
+organization: string;
+  degree: string;
+  duration: string;
+  address: string;
+}
+interface CourseItem {
+  name: string;
+  provider: string;
+  duration?: string;
+  address?: string;
+}
 
 export function Education () {
     const { t } = useTheme();
     const { t : tr } = useTranslation();
 
-    const educationList = tr("education.education", { returnObjects: true }) || [];
-    const coursesList = tr("education.courses", { returnObjects: true }) || [];
+    const educationList = (tr("education.education", { returnObjects: true }) as EducationItem[]) || [];
+    const coursesList = (tr("education.courses", { returnObjects: true }) as CourseItem[]) || [];
+
     return(
         <section className="flex flex-col gap-10 py-10" id="education">
             <Reveal>

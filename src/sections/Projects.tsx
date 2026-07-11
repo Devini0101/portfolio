@@ -8,11 +8,19 @@ import 'swiper/css/pagination';
 import { Reveal } from "../components/Reveal";
 import { useTheme } from "../App";
 
+interface ProjectItem {
+  title: string;
+  desc: string;
+  img: string;
+  github: string;
+  downloadable?: boolean;
+  download: string;
+}
 
 export function Projects () {
     const { t } = useTheme();
     const { t : tr} = useTranslation();
-    const MyProjects = tr("projects.projects_list", { returnObjects: true }) || [];
+    const MyProjects = (tr("projects.projects_list", { returnObjects: true }) as ProjectItem[]) || [];
 
     return(
         <section className="flex flex-col gap-10 reveal py-10" id="projects">
