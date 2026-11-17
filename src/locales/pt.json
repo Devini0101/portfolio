@@ -1,61 +1,51 @@
 {
-  "header": {
-    "about": "Sobre mim",
-    "experience" : "Experiência",
-    "skills" : "Habilidades",
-    "projects": "Projetos",
-    "education": "Escolaridade"
-  },
-
-  "hero": {
-    "opportunities": "Aberto a novas oportunidades",
-    "title": "Desenvolvedor Full Stack",
-    "subtitle": "Desenvolvedor Full Stack com experiência em construir sistemas backend com tecnologias como Laravel e Java, tal como sistemas frontend com React, TypeScript e Angular.",
-    "address" : "Curitiba, Brasil",
-    "downloadResume" : "Baixar Currículo",
-    "experiences" : "Explorar experiências",
-    "resumeExtension" : "./CurriculoViniciusDias_PTBR.pdf"
-  },
-
-  "experience" : {
-    "title" : "Experiência Profissional",
-    "jobs" : [ {
-            "role" : "Estagiário de Desenvolvimento Java & PHP",
-            "company" : "Banco do Brasil",
-            "time" : "Maio 2026 - Atualmente",
-            "address" : "Curitiba, Brasil",
-            "abilities": [
-                "Refatorei, mantive e debuggei código legado em PHP e Java, melhorando a estabilidade e performance de ambos sistemas.",
-                "Criei relatórios através de ferramentas de BI.",
-                "Colaborei em SCRUMs e Kanban, participando de reuniões e revisões de código.",
-                "Implementei testes unitários e integração contínua (CI) para aumento de qualidade do código.",
-                "Implementei ambientes de homologação e desenvolvimento para maior segurança em implementação de funcionalidades e correção de bugs.",
-                "Automatizei preenchimento de dados em Forms extensos através de upload e leitura de arquivos .XSLX .",
-                "Implementei e refinei autenticação via OAuth2 entre os ERPs da empresa para melhoria do controle de acesso.",
-                "Integrei a base de dados da IA interna à ferramenta de busca, permitindo a consulta unificada entre dados legados do banco e novas informações de contratos.",
-                "Desenvolvi um software para contabilização de tempo de trabalho dos funcionários em suas determinadas tarefas, ao final, gerando relatórios para gerentes.",
-                "Melhorei o desempenho de Querys e implementei índices para busca textual."
-            ]
-        },
-        {
-            "role" : "Estagiário de Desenvolvimento PHP",
-            "company" : "Meu Nominho",
-            "time" : "Agosto 2025 - Maio 2026",
-            "address" : "Curitiba, Brasil",
-            "abilities": [
-                "Implementei funcionalidades de relatórios dinâmicos sobre transportadoras.",
-                "Implementei envios de e-mail dinâmicos aos clientes e uso de código de barras como evento para esses envios.",
-                "Melhorei o desempenho de Jobs e Querys.",
-                "Realizei correção e manutenção de código legado em PHP.",
-                "Implementei melhorias na comunicação entre APIs assim como tratamento de dados e exceções.",
-                "Aprendi a utilizar meta-dados em tabelas EAV (Entity-Attribute-Value).",
-                "Implementação de API de logística.",
-                "Colaboração em projetos ágeis, participando de reuniões diárias e revisões de código."
-            ]
-        }
-    ]
-  },
-
+    "header": {
+        "about": "Sobre mim",
+        "experience" : "Experiência",
+        "skills" : "Habilidades",
+        "projects": "Projetos",
+        "education": "Escolaridade"
+    },
+    "hero": {
+        "opportunities": "Aberto a novas oportunidades",
+        "title": "Desenvolvedor Full Stack",
+        "subtitle": "Desenvolvedor Full Stack com experiência em construir sistemas backend com tecnologias como Laravel e Java, tal como sistemas frontend com React, TypeScript e Angular.",
+        "address" : "Curitiba, Brasil",
+        "downloadResume" : "Baixar Currículo",
+        "experiences" : "Explorar experiências",
+        "resumeExtension" : "./CurriculoViniciusDias_PTBR.pdf"
+    },
+    "experience": {
+        "title": "Experiência Profissional",
+        "jobs": [
+            {
+                "role": "Estagiário de Desenvolvimento Java & PHP",
+                "company": "Banco do Brasil",
+                "time": "Maio 2026 - Atualmente",
+                "address": "Curitiba, Brasil",
+                "abilities": [
+                    "Liderei a migração de um sistema legado em PHP puro para Laravel, implementando controle de acesso baseado em papéis (RBAC), normalização e indexação do banco de dados e pipelines de ETL/Jobs para sanitização e migração íntegra dos dados históricos.",
+                    "Integrei a base de dados da IA interna ao motor de busca corporativo, unificando consultas e índices de busca textual (Full-Text Search) entre sistemas legados e novos contratos, reduzindo o tempo de pesquisa em 80%.",
+                    "Implementei e refinei fluxos de autenticação via OAuth2 entre ERPs internos, padronizando o controle de acesso e a segurança na comunicação entre serviços.",
+                    "Desenvolvi um sistema end-to-end de time-tracking operacional para apontamento de horas por tarefa e geração automatizada de relatórios gerenciais e de BI para 8 equipes.",
+                    "Automatizei o preenchimento em lote de formulários extensos por meio de upload, parsing e validação de planilhas .XLSX, eliminando retrabalho operacional e erros de digitação.",
+                    "Estruturei ambientes isolados de Desenvolvimento e Homologação com pipelines de CI e testes unitários em Java e PHP, reduzindo regressões em produção."
+                ]
+            },
+            {
+                "role": "Estagiário de Desenvolvimento PHP",
+                "company": "Meu Nominho",
+                "time": "Agosto 2025 - Maio 2026",
+                "address": "Curitiba, Brasil",
+                "abilities": [
+                    "Implementei disparos automatizados de e-mails transacionais orientados a eventos via leitura de código de barras, automatizando a comunicação de ~1.000 pedidos/mês.",
+                    "Integrei APIs externas de logística com tratamento de exceções, resiliência de dados e relatórios dinâmicos de transportadoras, reduzindo falhas de sincronização de rastreio em 70%.",
+                    "Otimizei background jobs e consultas SQL em modelos relacionais e arquiteturas EAV (Entity-Attribute-Value), diminuindo o tempo de processamento em 40%.",
+                    "Refatorei e mantive código legado em PHP dentro de fluxos ágeis (Scrum), participando ativamente de revisões de código para reduzir débito técnico."
+                ]
+            }
+        ]
+    },
     "skills" : {
         "title" : "Habilidades Técnicas",
         "programming_languages" : "Linguagens de Programação",
@@ -70,13 +60,13 @@
             {
                 "organization": "Universidade Federal do Paraná (UFPR)",
                 "degree": "Análise e Desenvolvimento de Sistemas",
-                "duration": "2025 - Atualmente (4º semestre)",
+                "duration": "2025 - Atualmente (5º semestre)",
                 "address": "Curitiba, Brasil"
             },
             {
                 "organization": "Uninter",
                 "degree": "Engenharia de Software",
-                "duration": "2025 - Atualmente (4º semestre)",
+                "duration": "2025 - Atualmente (5º semestre)",
                 "address": "Curitiba, Brasil"
             }
         ],
@@ -89,62 +79,101 @@
                 "address": "Curitiba, Brasil"
             },
             {
-                "name": "Wizard",
-                "provider": "Inglês",
+                "name": "Inglês",
+                "provider": "Wizard",
                 "duration": "2019 - 2021",
                 "address": "Curitiba, Brasil"
+            },
+            {
+                "name": "Go e Gin: Criando uma API rest com simplicidade",
+                "provider": "Alura",
+                "duration": "2026 - 2026",
+                "address": "Online"
+            },
+            {
+                "name": "Node.js: criando uma API Rest com Express e MongoDB",
+                "provider": "Alura",
+                "duration": "2026 - 2026",
+                "address": "Online"
+            },
+            {
+                "name": "Java: trabalhando com lambdas, streams e Spring Framework",
+                "provider": "Alura",
+                "duration": "2026 - 2026",
+                "address": "Online"
             }
         ]
     },
 
-    "projects" : {
-        "title" : "Projetos",
-        "projects_list":[
+    "projects": {
+        "title": "Projetos",
+        "projects_list": [
+            {
+                "title": "Wager API",
+                "desc": "API para processamento de transações idempotentes em NestJS utilizando Bun como runtime e conteinerização de banco de dados e fila SQS com Docker.",
+                "img": "./wager_img.png",
+                "github": "https://github.com/Devini0101/wager-api",
+                "downloadable": false
+            },
+            {
+                "title": "TechFix",
+                "desc": "Aplicação full-stack para gestão de manutenção de equipamentos com Angular, Spring Boot e Docker, suportando fluxos de cliente e técnico ao longo de todo o ciclo de vida do serviço.",
+                "img": "./techfix.png",
+                "github": "https://github.com/Devini0101/TechFix",
+                "downloadable": false
+            },
+            {
+                "title": "Go + Gin API Rest",
+                "desc": "API REST em Go com o framework Gin para CRUD de estudantes, integrada com testes unitários e frontend server-side via templates HTML.",
+                "img": "./api_default.jpeg",
+                "github": "https://github.com/Devini0101/Go/tree/main/gin-api-rest",
+                "downloadable": false
+            },
+            {
+                "title": "Baozi Store",
+                "desc": "API REST em Spring Boot para gestão de produtos, clientes e pedidos, estruturada em arquitetura MVC com validação via DTOs e tratamento customizado de exceções.",
+                "img": "./api_default.jpeg",
+                "github": "https://github.com/Devini0101/Baozi-Store",
+                "downloadable": false
+            },
+            {
+                "title": "Go API Rest",
+                "desc": "API REST em Go para CRUD de personalidades com middlewares customizados, migrations de banco de dados e frontend em React para consumo dos dados.",
+                "img": "./api_default.jpeg",
+                "github": "https://github.com/Devini0101/Go/tree/main/api-go-rest",
+                "downloadable": false
+            },
             {
                 "title": "Forest Guardian",
-                "desc": "Jogo 2d feito em Python com a biblioteca PyGame",
+                "desc": "Jogo 2D desenvolvido em Python com a biblioteca PyGame, empacotado para download e execução local.",
                 "img": "./forest_guardian.jpeg",
                 "github": "https://github.com/Devini0101/ForestGuardian",
                 "downloadable": true,
                 "download": "./ForestGuardian.zip"
             },
             {
-                "title": "Pizzaria Customizada",
-                "desc": "Sistema de gerenciamento de uma pizzaria customizável em Java com foco em conceitos de LPOO, onde os formatos de pizza são variados, assim como os preços por tipo de sabores",
-                "img" : "./pizzaria.jpg",
-                "github": "https://github.com/Devini0101/OOP-Final-Project",
-                "downloadable": false
-            },
-            {
-                "title": "Fastyping",
-                "desc": "Website de digitação competitiva com ranking, estatísticas e níveis de dificuldade, construído com PHP puro e MySQL para armazenar os dados",
-                "img": "./fastyping.jpeg",
-                "github": "https://github.com/Devini0101/Fastyping",
-                "downloadable": false
-            },
-            {
                 "title": "LeetCode",
-                "desc": "Soluções de problemas do LeetCode, implementando algoritmos e estruturas de dados em Java e Python, com explicações detalhadas para cada solução.",
+                "desc": "Soluções de problemas do LeetCode implementando algoritmos e estruturas de dados em Java e Python, com análise de complexidade e explicações detalhadas.",
                 "img": "./leetcode.png",
                 "github": "https://github.com/Devini0101/Leetcode",
                 "downloadable": false
             },
             {
                 "title": "Gestão de Funcionários",
-                "desc": "Projeto de CRUD para gestão de funcionários, utilizando Python",
+                "desc": "Aplicação CRUD desenvolvida em Python para cadastro e gestão operacional de funcionários.",
                 "img": "./gestaoFuncionarios.jpeg",
                 "github": "https://github.com/Devini0101/gestaofuncionarios",
-                "downloadable" : false
+                "downloadable": false
             },
             {
-                "title" : "DSA With C Language",
-                "desc" : "implementação de algoritmos e estruturas de dados em C, como Matriz Esparsa.",
+                "title": "DSA With C Language",
+                "desc": "Implementação de estruturas de dados e algoritmos clássicos em linguagem C, incluindo matriz esparsa e algoritmos de busca.",
                 "img": "./mazeDSA.jpeg",
                 "github": "https://github.com/Devini0101/DSA",
                 "downloadable": false
             }
         ],
-        "repository_label" : "Ver Repositório",
-        "download_label" : "Baixar"
+        "repository_label": "Ver Repositório",
+        "download_label": "Baixar"
     }
 }

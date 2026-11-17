@@ -1,60 +1,51 @@
 {
-  "header": {
-    "about": "About Me",
-    "experience" : "Experience",
-    "skills" : "Skills",
-    "projects": "Projects",
-    "education": "Education"
-  },
-  "hero": {
-    "opportunities": "Open to new opportunities",
-    "title": "Full Stack Developer",
-    "subtitle": "Full Stack Developer with experience in building systems with Laravel and Java, also using TypeScript, React and Angular",
-    "address" : "Curitiba, Brasil",
-    "downloadResume" : "Download Resume",
-    "experiences" : "Explore Experiences",
-    "resumeExtension" : "./CurriculoViniciusDias_EN.pdf"
-  },
-
-  "experience" : {
-    "title" : "Professional Experience",
-    "jobs" : [ {
-            "role" : "Java & PHP Development Internship",
-            "company" : "Banco do Brasil",
-            "time" : "May 2026 - Currently",
-            "address" : "Curitiba, Brazil",
-            "abilities": [
-                "Maintained, refactored, and debugged legacy PHP and Java codebases to enhance stability and performance.",
-                "Created reports with BI tools.",
-                "Collaborated in SCRUM and Kanban, participating on meetings and code reviews.",
-                "Implemented Unit Tests and CI to increase code quality.",
-                "Implemented Homologation and Development ambients for security on build features and fixing bugs.",
-                "Automated form auto-filling via XLSX file uploads, significantly streamlining data entry for complex forms.",
-                "Implemented and refined OAuth2 authentication flows across enterprise ERP systems to strengthen access control.",
-                "Integrated an internal AI database with the primary database, enabling unified contract data searches within a single interface.",
-                "Developed a time-tracking application to measure employee task completion times and generate automated managerial reports.",
-                "Optimized database query performance and implemented full-text-search indexes to accelerate data retrieval."
-            ]
-        },
-        {
-            "role" : "PHP Development Internship",
-            "company" : "Meu Nominho",
-            "time" : "August 2025 - May 2026",
-            "address" : "Curitiba, Brazil",
-            "abilities": [
-                "Implemented a feature of dinamic reports about Carriers.",
-                "Implemented Mail Sender and Codebar functionalities.",
-                "Improved Jobs and Querys performance.",
-                "Corrected and performed maintence on legacy code in PHP.",
-                "Improved communication between APIs as well as data processing and error handlers.",
-                "Learned how to use meta-data in EAV (Entity-Attribute-Value) tables.",
-                "Implemented carrier API.",
-                "Colaborated in Agile Projects, participating in daily meetings and code reviews."
-            ]
-        }
-    ]
-  },
-
+    "header": {
+        "about": "About Me",
+        "experience" : "Experience",
+        "skills" : "Skills",
+        "projects": "Projects",
+        "education": "Education"
+    },
+    "hero": {
+        "opportunities": "Open to new opportunities",
+        "title": "Full Stack Developer",
+        "subtitle": "Full Stack Developer with experience in building systems with Laravel and Java, also using TypeScript, React and Angular",
+        "address" : "Curitiba, Brasil",
+        "downloadResume" : "Download Resume",
+        "experiences" : "Explore Experiences",
+        "resumeExtension" : "./CurriculoViniciusDias_EN.pdf"
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "jobs": [
+            {
+                "role": "Java & PHP Software Development Intern",
+                "company": "Banco do Brasil",
+                "time": "May 2026 - Present",
+                "address": "Curitiba, Brazil",
+                "abilities": [
+                    "Led the migration of a legacy pure-PHP system to Laravel, implementing Role-Based Access Control (RBAC), database normalization and indexing, and ETL/Job pipelines to sanitize and migrate historical data with full integrity.",
+                    "Integrated an internal AI knowledge base into the corporate search engine, unifying queries and Full-Text Search indexes across legacy systems and new contracts, reducing search times by 80%.",
+                    "Implemented and refined OAuth2 authentication flows across internal ERPs, standardizing access control and inter-service security.",
+                    "Developed an end-to-end operational time-tracking system for task-level hour logging and automated BI and managerial reporting across 8 teams.",
+                    "Automated bulk population of complex forms via .XLSX file upload, parsing, and validation, eliminating manual rework and data-entry errors.",
+                    "Structured isolated Development and Staging environments with CI pipelines and unit tests in Java and PHP, reducing production regressions."
+                ]
+            },
+            {
+                "role": "PHP Software Development Intern",
+                "company": "Meu Nominho",
+                "time": "August 2025 - May 2026",
+                "address": "Curitiba, Brazil",
+                "abilities": [
+                    "Implemented event-driven automated transactional emails triggered by barcode scans, automating customer communications for ~1,000 orders/month.",
+                    "Integrated external logistics APIs with robust exception handling, data resilience, and dynamic carrier reporting, reducing tracking synchronization failures by 70%.",
+                    "Optimized background jobs and SQL queries across relational models and EAV (Entity-Attribute-Value) architectures, reducing processing time by 40%.",
+                    "Refactored and maintained legacy PHP codebases within Agile (Scrum) workflows, actively participating in code reviews to reduce technical debt."
+                ]
+            }
+        ]
+    },
     "skills" : {
         "title" : "Technical Skills",
         "programming_languages" : "Programming Languages",
@@ -63,87 +54,125 @@
         "tools" : "Tools"
     },
 
-    "education" : {
-        "title" : "Education",
-        "education" : [
+    "education": {
+        "title": "Education",
+        "education": [
             {
                 "organization": "Universidade Federal do Paraná (UFPR)",
-                "degree": "System Analysis and Development",
-                "duration": "2025 - Currently (4º Semester)",
+                "degree": "Systems Analysis and Development",
+                "duration": "2025 - Present (5th Semester)",
                 "address": "Curitiba, Brazil"
             },
             {
                 "organization": "Uninter",
-                "degree": "Software Engeneering",
-                "duration": "2025 - Currently (4º Semester)",
+                "degree": "Software Engineering",
+                "duration": "2025 - Present (5th Semester)",
                 "address": "Curitiba, Brazil"
             }
         ],
-        "courses_title" : "Courses",
-        "courses":[
-             {
-                "name": "CS-50 (Harvard)",
-                "provider": "Computer Science",
+        "courses_title": "Courses",
+        "courses": [
+            {
+                "name": "CS50: Introduction to Computer Science",
+                "provider": "Harvard University",
                 "duration": "2024 - 2025",
+                "address": "Online"
+            },
+            {
+                "name": "English Language Proficiency",
+                "provider": "Wizard",
+                "duration": "2019 - 2021",
                 "address": "Curitiba, Brazil"
             },
             {
-                "name": "Wizard",
-                "provider": "English",
-                "duration": "2019 - 2021",
-                "address": "Curitiba, Brazil"
+                "name": "Go and Gin: Building a REST API with Simplicity",
+                "provider": "Alura",
+                "duration": "2026",
+                "address": "Online"
+            },
+            {
+                "name": "Node.js: Building a REST API with Express and MongoDB",
+                "provider": "Alura",
+                "duration": "2026",
+                "address": "Online"
+            },
+            {
+                "name": "Java: Working with Lambdas, Streams, and Spring Framework",
+                "provider": "Alura",
+                "duration": "2026",
+                "address": "Online"
             }
         ]
     },
-
-    "projects" : {
-        "title" : "Projects",
-        "projects_list":[
+    "projects": {
+        "title": "Projects",
+        "projects_list": [
+            {
+                "title": "Wager API",
+                "desc": "Idempotent financial transaction processing API built with NestJS and Bun, featuring a containerized relational database and AWS SQS message queue via Docker.",
+                "img": "./wager_img.png",
+                "github": "https://github.com/Devini0101/wager-api",
+                "downloadable": false
+            },
+            {
+                "title": "TechFix",
+                "desc": "Full-stack equipment maintenance management platform built with Angular, Spring Boot, and Docker, supporting end-to-end service lifecycle workflows for clients and technicians.",
+                "img": "./techfix.png",
+                "github": "https://github.com/Devini0101/TechFix",
+                "downloadable": false
+            },
+            {
+                "title": "Go + Gin REST API",
+                "desc": "RESTful student management API developed in Go with the Gin framework, featuring automated unit tests and server-side HTML templates for data visualization.",
+                "img": "./api_default.jpeg",
+                "github": "https://github.com/Devini0101/Go/tree/main/gin-api-rest",
+                "downloadable": false
+            },
+            {
+                "title": "Baozi Store",
+                "desc": "Spring Boot REST API for managing products, customers, and orders, structured with MVC architecture, DTO validation, and custom exception handling.",
+                "img": "./api_default.jpeg",
+                "github": "https://github.com/Devini0101/Baozi-Store",
+                "downloadable": false
+            },
+            {
+                "title": "Go REST API",
+                "desc": "RESTful API built in Go with custom middlewares and database migrations, paired with a React frontend for data consumption.",
+                "img": "./api_default.jpeg",
+                "github": "https://github.com/Devini0101/Go/tree/main/api-go-rest",
+                "downloadable": false
+            },
             {
                 "title": "Forest Guardian",
-                "desc": "2D Game built with Python library PyGame",
+                "desc": "2D arcade game developed in Python using the PyGame library, packaged as a standalone executable.",
                 "img": "./forest_guardian.jpeg",
                 "github": "https://github.com/Devini0101/ForestGuardian",
                 "downloadable": true,
                 "download": "./ForestGuardian.zip"
             },
             {
-                "title": "Custom Pizzeria",
-                "desc": "Pizzeria management system in Java, focused on OOP concepts, where pizza formats are able to costumize, generating variable prices",
-                "img" : "./pizzaria.jpg",
-                "github": "https://github.com/Devini0101/OOP-Final-Project",
-                "downloadable": false
-            },
-            {
-                "title": "Fastyping",
-                "desc": "Competitive typing website with rankings, guilds, statistics and difficult levels, built with PHP and JS",
-                "img": "./fastyping.jpeg",
-                "github": "https://github.com/Devini0101/Fastyping",
-                "downloadable": false
-            },
-            {
-                "title": "LeetCode",
-                "desc": "Solving leetcode DSA problems and implementing algorithms in Java and Python, with details for each solution.",
+                "title": "LeetCode Solutions",
+                "desc": "Algorithmic and data structure problem solutions implemented in Java and Python, accompanied by complexity analysis and step-by-step explanations.",
                 "img": "./leetcode.png",
                 "github": "https://github.com/Devini0101/Leetcode",
                 "downloadable": false
             },
             {
                 "title": "Employee Management",
-                "desc": "CRUD project for employees management built with Python",
+                "desc": "CRUD application built in Python for employee records and operational management.",
                 "img": "./gestaoFuncionarios.jpeg",
                 "github": "https://github.com/Devini0101/gestaofuncionarios",
-                "downloadable" : false
+                "downloadable": false
             },
             {
-                "title" : "DSA With C Language",
-                "desc" : "Implementing DSA in C, like sparse matrix, maze and airport algorithms",
+                "title": "DSA With C Language",
+                "desc": "Low-level implementation of classic data structures and algorithms in C, including sparse matrices and pathfinding structures.",
                 "img": "./mazeDSA.jpeg",
                 "github": "https://github.com/Devini0101/DSA",
                 "downloadable": false
             }
         ],
-        "repository_label" : "Repository",
-        "download_label" : "Download"
+        "repository_label": "View Repository",
+        "download_label": "Download"
     }
 }

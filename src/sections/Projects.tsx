@@ -55,7 +55,7 @@ export function Projects () {
                                                 <FaGithub />{tr('projects.repository_label')}
                                             </a>
                                             {project.downloadable && (
-                                                <a href={project.download} target="_blank" rel="noopener noreferrer" className={`transition-transform duration-200  border inline-flex items-center gap-2 ${t.accent} border-transparent hover:border-purple-600 hover:${t.text} hover: ${t.background} rounded-md font-medium p-2 hover:scale-105`}>
+                                                <a href={project.download} target="_blank" rel="noopener noreferrer" className={`transition-transform duration-200  border inline-flex items-center gap-1 ${t.accent} border-transparent hover:border-purple-600 hover:${t.text} hover: ${t.background} rounded-md font-medium p-2 hover:scale-105`}>
                                                 <FaDownload />{tr('projects.download_label')}
                                                 </a>
                                             )}

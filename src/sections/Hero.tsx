@@ -40,8 +40,8 @@ export function Hero () {
 
                         <div className="flex items-center">
                             <BsLinkedin className={`inline-block mr-2 ${ t.text }`} />
-                            <a className={`text-purple-600 ${ t.text }`} href="https://www.linkedin.com/in/vinicius-eduardo-564211216/" target="_blank" rel="noopener noreferrer">
-                                linkedin.com/in/vinicius-eduardo-564211216/
+                            <a className={`text-purple-600 ${ t.text }`} href="https://www.linkedin.com/in/vinicius-dias-564211216/" target="_blank" rel="noopener noreferrer">
+                                linkedin.com/in/vinicius-dias-564211216/
                             </a>
                         </div>
 

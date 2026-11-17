@@ -1,8 +1,8 @@
 import { BsDatabase, BsTypescript } from "react-icons/bs";
 import { DiJava, DiJavascript1, DiMongodb, DiMysql, DiRedis, DiPhp, DiPostgresql, DiPython, DiNginx, DiDocker, DiGit } from "react-icons/di";
-import { FaTools } from "react-icons/fa";
+import { FaDatabase, FaTools } from "react-icons/fa";
 import { LuCodeXml } from "react-icons/lu";
-import { SiAngular, SiBootstrap, SiBruno, SiC, SiFramework, SiLaravel, SiNeo4J, SiPostman, SiReact, SiTailwindcss, SiGo, SiSpringboot } from "react-icons/si";
+import { SiAngular, SiBootstrap, SiBruno, SiC, SiFramework, SiLaravel, SiNeo4J, SiPostman, SiReact, SiTailwindcss, SiGo, SiSpringboot, SiNestjs, SiGin } from "react-icons/si";
 import { Reveal } from "../components/Reveal";
 import { useTheme } from "../App";
 import { useTranslation } from "react-i18next";
@@ -37,13 +37,13 @@ export function Skills () {
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
-                                <DiPython size={40} className="text-md" />
-                                <span className={`block text-center  font-bold font-mono mt-1`}>Python</span>
+                                <SiGo size={40} className="text-md" />
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Go</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
-                                <DiJavascript1 size={40} className="text-md" />
-                                <span className={`block text-center  font-bold font-mono mt-1`}>JavaScript</span>
+                                <DiPython size={40} className="text-md" />
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Python</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
@@ -52,13 +52,14 @@ export function Skills () {
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
-                                <SiC size={40} className="text-md" />
-                                <span className={`block text-center  font-bold font-mono mt-1`}>C</span>
+                                <DiJavascript1 size={40} className="text-md" />
+                                <span className={`block text-center  font-bold font-mono mt-1`}>JavaScript</span>
                             </li>
 
+
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
-                                <SiGo size={40} className="text-md" />
-                                <span className={`block text-center  font-bold font-mono mt-1`}>Go</span>
+                                <SiC size={40} className="text-md" />
+                                <span className={`block text-center  font-bold font-mono mt-1`}>C</span>
                             </li>
 
                         </ul>
@@ -83,13 +84,24 @@ export function Skills () {
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
-                                <SiReact size={40} className="text-md" />
-                                <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>React</span>
+                                <SiGin size={40} className="text-md" />
+                                <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>Gin</span>
+                            </li>
+
+                            <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
+                                <SiNestjs size={40} className="text-md" />
+                                <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>Nest Js</span>
                             </li>
 
                             <li className={`mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center`}>
                                 <SiAngular size={40} className="text-md" />
                                 <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>Angular</span>
+                            </li>
+
+
+                            <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
+                                <SiReact size={40} className="text-md" />
+                                <span className={`block text-centerhover:text-white font-bold font-mono mt-1`}>React</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
@@ -131,6 +143,11 @@ export function Skills () {
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
                                 <DiMongodb size={40} className="text-md" />
                                 <span className={`block text-center  font-bold font-mono mt-1`}>MongoDB</span>
+                            </li>
+
+                            <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
+                                <FaDatabase size={40} className="text-md" />
+                                <span className={`block text-center  font-bold font-mono mt-1`}>Dynamo DB</span>
                             </li>
 
                             <li className="mr-4 border border-gray-600 text-purple-600 transition-transform duration-300 hover:scale-105 hover:bg-purple-600 hover:text-white rounded-md p-2 flex flex-col items-center">
